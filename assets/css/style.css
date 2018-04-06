@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/crystals6.jpg);
+    color: black;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url(../images/crystals6.jpg);
+    
+}
+
+.display-4 {
+    font-size: 70px;
+    
+}
+
+.counter {
+    background: rgba(255,255,255, 0.7);
+    border-radius: .25rem;
+    color: #000000;
+    text-align: center;
+}
+
+.crystal {
+    margin-bottom: 10px;
+    padding: 0;
+    border: 3px solid rgba(255,255,255, 0.7);
+}
+
+.words {
+    background: rgba(255,255,255, 0.7);
+    border-radius: .25rem;
+    color: #0000000;
+}
+
+#yourNumber, #yourScore, #lossCounter, #winCounter, #crystalValue {
+    color: #000000;
+    font-weight: bold;
+}
+
+.scores {
+    font-weight: bold;
+
+}
+

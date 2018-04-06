@@ -31,24 +31,32 @@
                         <div class="col-6">
                             <img src="assets/images/crystals1.jpg" alt="..." class="img-thumbnail crystal blueCrystal">
                             <img src="assets/images/crystals2.jpg" alt="..." class="img-thumbnail crystal yellowCrystal">
+                            <div class="counter">
+                                <strong class ='wins'>Wins: </strong>
+                                <span id='winCounter'>0</span>
+                            </div>
                         </div>
-                
-                    
+
+
                         <div class="col-6">
-                            <img src="assets/images/crystals3.jpg" alt="..." class="img-thumbnail crystal orangeCrystal">
+                            <img src="assets/images/crystals5.jpg" alt="..." class="img-thumbnail crystal tealCrystal">
                             <img src="assets/images/crystals4.jpg" alt="..." class="img-thumbnail crystal purpleCrystal">
+                            <div class='counter'>
+                                <strong class ='losses'>Losses: </strong>
+                                <span id='lossCounter'>0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 words">
                     <div class="row">
                         <div class="col-12">
-                            <p>You will be given a random number at the start of a game</p>
+                            <p>You will be given a random number at the start of a game.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <p>Your Number:
+                            <p class = 'scores'>Your Number:
                                 <div id="yourNumber"></div>
                             </p>
                         </div>
@@ -63,16 +71,25 @@
                                 total score goes above the random number.</p>
                         </div>
                         <div class="col-6">
-                            <p>Your Score:
-                                <div id ="yourScore"></div>
+                            <p class = 'scores'>Your Score:
+                                <div id="yourScore"></div>
                             </p>
                         </div>
                     </div>
 
-                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class ='scores'>Crystal Value:
+                                <div id="crystalValue"></div>
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <p>The value of each crystal is hidden from you until you click on it.</p>
+                        </div>
+                    </div>
                     <p>Each time when the game starts, the game will change the value of each crystal.</p>
-                    <strong>Wins: </strong> <span id='winCounter'>0</span>
-                    <strong>Losses: </strong> <span id='lossCounter'>0</span>
+
+
                 </div>
 
 
